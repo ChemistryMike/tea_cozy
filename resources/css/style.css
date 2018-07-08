@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.main {
+    width: 1200px;
+}
+
+#mission {
+    height: 700px;
+    background-image: url(../images/img-mission-background.jpg)
+}
+
+#featuretea {
+    width: 1000px;
+}
+
+.menu-item img {
+    height: 200px;
+    width: 300px;
+}
