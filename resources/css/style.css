@@ -1,3 +1,32 @@
+header {
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    height: 69px;
+    width: 100%;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+a {
+    color: seashell;
+}
+
+nav span {
+    padding: 20px 10px;
+    display: inline-block;
+}
+
 body {
     background-color: black;
     font-family: Helvetica;
@@ -5,17 +34,19 @@ body {
     color: seashell;
     opacity: 0.9;
     text-align: center;
+    margin: 0;
 }
 
 .flex-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-content: center;
 }
 
 .main {
     width: 1200px;
+    position: relative;
+    padding-top: 69px;
 }
 
 #mission {
