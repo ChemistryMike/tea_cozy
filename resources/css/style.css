@@ -52,7 +52,7 @@ body {
 
 #mission {
     height: 700px;
-    background-image: url(../images/img-mission-background.jpg)
+    background-image: url(../images/img-mission-background.jpg);
 }
 
 #mission .statement {
@@ -63,9 +63,45 @@ body {
 
 #featuretea {
     width: 1000px;
+    margin: 30px auto;
+}
+
+.menu-item {
+    padding: 5px;
 }
 
 .menu-item img {
     height: 200px;
     width: 300px;
+    margin: 10px;
+}
+
+.menu-item h4 {
+    margin: 0px;
+}
+
+#locations {
+    background-image: url(./../images/img-locations-background.jpg);
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#locations h2 {
+    margin: 0px;
+}
+
+.location {
+    background-color: black;
+    width: 300px;
+    margin: 15px 20px;
+}
+
+.contact {
+    height: 200px;
+}
+
+footer {
+    text-align: left;
+    margin: 20px;
 }
